@@ -1,0 +1,49 @@
+$primary-color: rgb(196, 43, 119);
+
+body {
+    background: $primary-color;
+
+    main {
+        width: 80vw;
+        margin: 0 auto;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    article {
+        background: white;
+        font-family: 'Muli', sans-serif;
+        padding: 1rem;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 0;
+
+        &.poppins {
+        
+            & h2{
+                font-family: 'Poppins', sans-serif;
+            }
+
+            & p {
+                font-family: 'PT Serif', serif;
+            }
+
+        }
+        &.kosmos {
+        
+            & h2{
+                font-family: 'BioRhyme', serif;
+            }
+
+            & p {
+                font-family: 'Space Mono', monospace;
+            }
+
+        }
+    
+    }
+    
+  
+ 
+}
